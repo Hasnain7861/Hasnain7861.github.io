@@ -17,15 +17,19 @@ const Experience = () => {
             <ul className="experience__details">
               <li>
               <BsPatchCheckFill className="experience__list-icon" />
-              <p4> Coordinate and record student housing equipment rentals.</p4>
+              <p4> Explained procedures and core concepts for 30+ students to complete the lab.</p4>
               </li>
               <li>
               <BsPatchCheckFill className="experience__list-icon" />
-              <p4> Provision and record new and replacement key cards issued to dorm residents.</p4>
+              <p4> Assisted students with concepts relating to OOPs, Java, and IDEs.</p4>
               </li>
               <li>
               <BsPatchCheckFill className="experience__list-icon" />
-              <p4> Update university housing database with upto date records.</p4>
+              <p4> Graded students' assignments and quizzes.</p4>
+              </li>
+              <li>
+              <BsPatchCheckFill className="experience__list-icon" />
+              <p4> Established a friendly learning environment.</p4>
               </li>
             </ul>  
           </div>
