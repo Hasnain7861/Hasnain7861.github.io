@@ -44,3 +44,44 @@ h6 {
     margin-bottom: 1.3rem;
     line-height: 1px; ;
 }
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
+    }
+
+    #experience {
+        margin-top: 20px; /* Add margin to lower the entire section */
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .experience__container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
+      margin-top: 330px;
+    }
+    
+    .experience__SJSU {
+      text-align: center;
+    }
+
+    #experience {
+        margin-top: 330px; /* Add margin to lower the entire section */
+      }
+
+      .h6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .experience__content h6, .experience__content h7 {
+        margin-top: 10px;
+      } 
+
+  }

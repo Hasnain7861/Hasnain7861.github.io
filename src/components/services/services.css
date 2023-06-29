@@ -11,7 +11,6 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    
     text-align: left; 
   }
   
@@ -29,3 +28,46 @@
     margin-top: 10px;
     text-align: left;
   }  
+
+  @media screen and (max-width: 1024px) {
+    .education__container {
+      width: 100%;
+    }
+  
+    .image__SJSU {
+      padding: 10px;
+    }
+    
+    .text__below-image h3 {
+      text-align: left;
+    }
+    
+    .text__below-image p {
+      text-align: left;
+    }
+
+    #services {
+      margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .education__container {
+      align-items: stretch;
+    }
+  
+    .image__SJSU {
+      padding: 10px;
+    }
+    
+    .text__below-image h3 {
+      text-align: left;
+    }
+    
+    .text__below-image p {
+      text-align: left;
+    }
+
+    #services {
+      margin-top: 940px;
+  }
+}}

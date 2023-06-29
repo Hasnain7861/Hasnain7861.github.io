@@ -27,18 +27,50 @@
     margin: 0.8rem auto 0;
 }
 
-
 @media screen and (max-width: 1024px) {
+    #testimonials {
+      margin-top: 4rem;
+      position: relative;
+      padding-top: 4rem;
+    }
+  
     .container.awards__container {
-        width: 60%;
+      width: 70%;
+      height: auto;
+      margin-bottom: 2rem;
     }
+  
+    .testimonial {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
     }
-
-@media screen and (max-width: 600px) {
-    .container.awards__container {
-        width: var(--container-width-sm);
-    }
+  
     .award__review {
-        width: var(--container-width-sm);
+      width: 90%;
+      margin: 0.8rem auto;
     }
-}
+  }
+  
+  @media screen and (max-width: 600px) {
+    #testimonials {
+      margin-top: 25rem;
+      position: relative;
+      padding-top: 4rem;
+    }
+  
+    .container.awards__container {
+      width: 90%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+  
+    .testimonial {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+  
+    .award__review {
+      width: 90%;
+      margin: 0.8rem auto;
+    }
+  }
