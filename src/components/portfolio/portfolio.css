@@ -1,4 +1,4 @@
-.portfolio__container {
+/* .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -17,9 +17,10 @@
     background: transparent;
 }
 
-.portfolio__item-image {
+.portfolio__item.image {
     border-radius: 1.5rem;
     overflow: hidden;
+    
 }
 
 .portfolio__item h3 {
@@ -40,4 +41,53 @@
     }
 }
 
+ */
 
+ .portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  
+  .portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+  }
+  
+  .portfolio__item.image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+  
+  .portfolio__item img {
+    width: 100%; /* Add this to make all images take up the full width of their container */
+    height: 100%; /* Add this to make all images take up the full height of their container */
+    object-fit: cover; /* This ensures the images maintain their aspect ratio and cover the entire container */
+    height: 250px;
+  }
+  
+  .portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .portfolio__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .portfolio__container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }

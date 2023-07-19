@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b214358.css",
+    "main.css": "/static/css/main.ea9fa06b.css",
     "main.js": "/static/js/main.a372fe28.js",
     "static/media/20211219_122505.jpg": "/static/media/20211219_122505.6fd7f16f50a1b8a33997.jpg",
     "static/media/IMG_2571.jpg": "/static/media/IMG_2571.476526dd388a34266968.jpg",
@@ -8,11 +8,11 @@
     "static/media/Hasnain-Mucklai's Resume.pdf": "/static/media/Hasnain-Mucklai's Resume.fd133b1829468f053f06.pdf",
     "static/media/CodePath_Logo.jpg": "/static/media/CodePath_Logo.147432dcd62df1787f43.jpg",
     "index.html": "/index.html",
-    "main.1b214358.css.map": "/static/css/main.1b214358.css.map",
+    "main.ea9fa06b.css.map": "/static/css/main.ea9fa06b.css.map",
     "main.a372fe28.js.map": "/static/js/main.a372fe28.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b214358.css",
+    "static/css/main.ea9fa06b.css",
     "static/js/main.a372fe28.js"
   ]
 }
