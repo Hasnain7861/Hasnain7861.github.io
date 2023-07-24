@@ -1,9 +1,10 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/sjsu.jpg'
-import GPT_Logo from '../../assets/Chat_GPT_Clone.png'
+import GPT_Logo from '../../assets/chatgpt_logo.jpg'
 import messaging_Logo from '../../assets/messaging_app_logo.jpg'
 import Recipe_Logo from '../../assets/Recipe_App_Image.jpg'
+import Ecommerce_logo from '../../assets/ecommerce_logo.jpg'
 
 const Portfolio = () => {
   return (
@@ -36,6 +37,15 @@ const Portfolio = () => {
             <h3>Social Media Webpage</h3>
 
             <a href="https://github.com/neelp03/Team1" target="_blank" className='btn'>Github</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          < div className="portfolio__item.image">
+            <img src={Ecommerce_logo} alt="" />
+            <h3>Ecommerce Application</h3>
+
+            <a href="https://github.com/Hasnain7861/FullStack-Ecommerce" target="_blank" className='btn'>Github</a>
           </div>
         </article>
       </div>
