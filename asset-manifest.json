@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c238a736.css",
-    "main.js": "/static/js/main.ba0509a8.js",
+    "main.css": "/static/css/main.e5171762.css",
+    "main.js": "/static/js/main.4687b392.js",
     "static/media/20211219_122505.jpg": "/static/media/20211219_122505.6fd7f16f50a1b8a33997.jpg",
     "static/media/IMG_2571.jpg": "/static/media/IMG_2571.476526dd388a34266968.jpg",
     "static/media/messaging_app_logo.jpg": "/static/media/messaging_app_logo.0b72613535148217f427.jpg",
     "static/media/sjsu.jpg": "/static/media/sjsu.d18b0cb29f9fdbfbfa4e.jpg",
     "static/media/Hasnain-Mucklai's Resume.pdf": "/static/media/Hasnain-Mucklai's Resume.fd133b1829468f053f06.pdf",
     "static/media/Recipe_App_Image.jpg": "/static/media/Recipe_App_Image.57497a7dca7c7eebd998.jpg",
+    "static/media/chatgpt_logo.jpg": "/static/media/chatgpt_logo.42687faf7b84c5c3066a.jpg",
+    "static/media/ecommerce_logo.jpg": "/static/media/ecommerce_logo.cd8c04eb12f6b130bc89.jpg",
     "static/media/CodePath_Logo.jpg": "/static/media/CodePath_Logo.147432dcd62df1787f43.jpg",
     "index.html": "/index.html",
-    "main.c238a736.css.map": "/static/css/main.c238a736.css.map",
-    "main.ba0509a8.js.map": "/static/js/main.ba0509a8.js.map"
+    "main.e5171762.css.map": "/static/css/main.e5171762.css.map",
+    "main.4687b392.js.map": "/static/js/main.4687b392.js.map"
   },
   "entrypoints": [
-    "static/css/main.c238a736.css",
-    "static/js/main.ba0509a8.js"
+    "static/css/main.e5171762.css",
+    "static/js/main.4687b392.js"
   ]
 }
