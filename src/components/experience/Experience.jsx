@@ -10,9 +10,32 @@ const Experience = () => {
 
       <div className="container experience__container">
       <div className="experience__SJSU">
+      <h3>Fidelity Investments</h3>  
+        <h6>Software Engineer Intern</h6>
+        <h7>May 2024 - August 2024</h7>
+          <div className="experience__content">
+            <ul className="experience__details">
+              <li>
+              <BsPatchCheckFill className="experience__list-icon" />
+              <p4> Rewrote API integration with Angular Query, achieving 40% faster data fetching and seamless automatic updates on successful
+              edits.</p4>
+              </li>
+              <li>
+              <BsPatchCheckFill className="experience__list-icon" />
+              <p4> Authored over 50 unit tests, achieving over 90% code coverage and resulting in a 25% reduction in bugs, ensuring high-quality,
+              maintainable code.</p4>
+              </li>
+              <li>
+              <BsPatchCheckFill className="experience__list-icon" />
+              <p4> Developed and implemented several feature components in Angular, improving user interface clarity and responsiveness by 30%.</p4>
+              </li>
+            </ul>  
+          </div>
+        </div>
+      <div className="experience__SJSU">
       <h3>San Jose State University</h3>  
         <h6>Introduction to Programming Lab Instructor</h6>
-        <h7>August 2023 - Present</h7>
+        <h7>August 2023 - May 2024</h7>
           <div className="experience__content">
             <ul className="experience__details">
               <li>

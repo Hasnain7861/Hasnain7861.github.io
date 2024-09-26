@@ -14,10 +14,11 @@ const Services = () => {
         </div>
           <div className="text__below-image">
             <h3>August 2021 - May 2025 (Expected)</h3>
-            <p>Relevent Coursework: Database Management Systems, Object Oriented Design, Data Structures and Algorithms I & II, Assembly Language Programming </p>
-            <p>Languages and Databases: Java, Python, JavaScript, HTML/CSS, SQL, mongoDB</p>
-            <p>Frameworks: React, Node.js, Flask</p>
-            <p>Developer Tools: Git, VSCode, IntelliJ, Eclipse</p>
+            <p>Relevent Coursework: Database Management Systems, Object Oriented Design, Data Structures and Algorithms I & II, Enterprise Software, Introduction to AI, Operating Systems, Assembly Language Programming </p>
+            <p>Programming Languages: Python, Java, JavaScript, TypeScript, HTML, CSS, SQL</p>
+            <p>Frameworks: React, Angular, Next.js, FastAPI, Flask, Express, Tailwind CSS</p>
+            <p>Developer Tools: Postman, Git, GitHub, VS Code, Visual Studio, PyCharm, Eclipse, IntelliJ, Docker</p>
+            <p>Technologies: Node.js, MongoDB, Firebase, MySQL, SQLite, SQLAlchemy, PostgreSQL</p>
           </div>
       </div>
       

@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.7692a93d.css",
-    "main.js": "/static/js/main.16e4241a.js",
+    "main.js": "/static/js/main.7576a8f4.js",
     "static/media/20211219_122505.jpg": "/static/media/20211219_122505.6fd7f16f50a1b8a33997.jpg",
     "static/media/IMG_2571.jpg": "/static/media/IMG_2571.476526dd388a34266968.jpg",
-    "static/media/Hasnain Mucklai's-Resume.pdf": "/static/media/Hasnain Mucklai's-Resume.926ce684c3283690b20b.pdf",
+    "static/media/Hasnain_Mucklai_Resume.pdf": "/static/media/Hasnain_Mucklai_Resume.75d5019be1b3a84036aa.pdf",
     "static/media/messaging_app_logo.jpg": "/static/media/messaging_app_logo.0b72613535148217f427.jpg",
     "static/media/sjsu.jpg": "/static/media/sjsu.d18b0cb29f9fdbfbfa4e.jpg",
     "static/media/Recipe_App_Image.jpg": "/static/media/Recipe_App_Image.57497a7dca7c7eebd998.jpg",
@@ -13,10 +13,10 @@
     "static/media/CodePath_Logo.jpg": "/static/media/CodePath_Logo.147432dcd62df1787f43.jpg",
     "index.html": "/index.html",
     "main.7692a93d.css.map": "/static/css/main.7692a93d.css.map",
-    "main.16e4241a.js.map": "/static/js/main.16e4241a.js.map"
+    "main.7576a8f4.js.map": "/static/js/main.7576a8f4.js.map"
   },
   "entrypoints": [
     "static/css/main.7692a93d.css",
-    "static/js/main.16e4241a.js"
+    "static/js/main.7576a8f4.js"
   ]
 }
