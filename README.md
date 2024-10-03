@@ -1,3 +1,5 @@
-# Hasnain7861.github.io
-Created my personal portfolio from scratch using HTML, CSS, Javascript and React. Here is the live link to the website.
-https://hasnain7861.github.io/
+# Hasnain's Portfolio Website
+
+Welcome to the repository for my personal portfolio website, showcasing my skills, projects, and professional experience. The portfolio is built using HTML, CSS, and JavaScript, and is designed to be responsive and engaging across different devices.
+
+Visit the live website here: [Hasnain's Portfolio](https://hasnain7861.github.io/)
