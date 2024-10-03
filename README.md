@@ -17,4 +17,5 @@ Visit the live website here: [Hasnain's Portfolio](https://hasnain7861.github.io
 - ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) **HTML5** for structure and semantic content.
 - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) **CSS3** for design, including animations and responsive layout.
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) **JavaScript** for interactive components and dynamic behavior.
+- ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black) **React** for building the user interface and managing the component-based structure.
 - ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-181717?style=flat&logo=github&logoColor=white) **GitHub Pages** for hosting the site.
