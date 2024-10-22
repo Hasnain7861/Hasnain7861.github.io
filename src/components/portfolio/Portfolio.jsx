@@ -5,6 +5,7 @@ import GPT_Logo from '../../assets/chatgpt_logo.jpg'
 import messaging_Logo from '../../assets/messaging_app_logo.jpg'
 import Recipe_Logo from '../../assets/Recipe_App_Image.jpg'
 import Ecommerce_logo from '../../assets/ecommerce_logo.jpg'
+import scholarship_tracker_logo from '../../assets/Scholarship-tracker-logo.png'
 
 const Portfolio = () => {
   return (
@@ -13,6 +14,16 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+
+      <article className="portfolio__item">
+          < div className="portfolio__item.image">
+            <img src={scholarship_tracker_logo} alt="" />
+            <h3>Scholarship Tracker</h3>
+
+            <a href="https://github.com/Hasnain7861/scholarship-tracker" target="_blank" className='btn'>Github</a>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           < div className="portfolio__item.image">
             <img src={GPT_Logo} alt="" />
