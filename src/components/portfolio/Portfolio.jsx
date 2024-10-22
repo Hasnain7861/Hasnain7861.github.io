@@ -7,6 +7,7 @@ import Recipe_Logo from '../../assets/Recipe_App_Image.jpg'
 import Ecommerce_logo from '../../assets/ecommerce_logo.jpg'
 import scholarship_tracker_logo from '../../assets/Scholarship-tracker-logo.png'
 import fact_checker_logo from '../../assets/Fact-checker-logo.png'
+import student_stash_logo from '../../assets/Student-stash-logo.png'
 
 const Portfolio = () => {
   return (
@@ -49,6 +50,15 @@ const Portfolio = () => {
             <h3>Recipe App</h3>
 
             <a href="https://github.com/Hasnain7861/Recipe_App" target="_blank"className='btn'>Github</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          < div className="portfolio__item.image">
+            <img src={student_stash_logo} alt="" />
+            <h3>Student Stash</h3>
+
+            <a href="https://github.com/CMPE133-Group-Project/student_stash" target="_blank"className='btn'>Github</a>
           </div>
         </article>
 
