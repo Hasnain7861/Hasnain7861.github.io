@@ -6,6 +6,7 @@ import messaging_Logo from '../../assets/messaging_app_logo.jpg'
 import Recipe_Logo from '../../assets/Recipe_App_Image.jpg'
 import Ecommerce_logo from '../../assets/ecommerce_logo.jpg'
 import scholarship_tracker_logo from '../../assets/Scholarship-tracker-logo.png'
+import fact_checker_logo from '../../assets/Fact-checker-logo.png'
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
 
-      <article className="portfolio__item">
+        <article className="portfolio__item">
           < div className="portfolio__item.image">
             <img src={scholarship_tracker_logo} alt="" />
             <h3>Scholarship Tracker</h3>
@@ -23,6 +24,15 @@ const Portfolio = () => {
             <a href="https://github.com/Hasnain7861/scholarship-tracker" target="_blank" className='btn'>Github</a>
           </div>
         </article>
+
+        <article className="portfolio__item">
+          < div className="portfolio__item.image">
+            <img src={fact_checker_logo} alt="" />
+            <h3>Fact Checker</h3>
+
+            <a href="https://github.com/PhongDiep2003/fact-checker-frontend" target="_blank" className='btn'>Github</a>
+          </div>
+        </article>  
 
         <article className="portfolio__item">
           < div className="portfolio__item.image">
