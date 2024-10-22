@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.a249be1c.css",
-    "main.js": "/static/js/main.99cb3829.js",
+    "main.js": "/static/js/main.6101fa02.js",
     "static/media/20211219_122505.jpg": "/static/media/20211219_122505.6fd7f16f50a1b8a33997.jpg",
+    "static/media/Scholarship-tracker-logo.png": "/static/media/Scholarship-tracker-logo.2d3ebe7d206e7f095784.png",
+    "static/media/Student-stash-logo.png": "/static/media/Student-stash-logo.1f53c5d32a79ce83561c.png",
+    "static/media/Fact-checker-logo.png": "/static/media/Fact-checker-logo.35432f70e2c67b8071c4.png",
     "static/media/IMG_2571.jpg": "/static/media/IMG_2571.476526dd388a34266968.jpg",
     "static/media/Hasnain_Mucklai_Resume.pdf": "/static/media/Hasnain_Mucklai_Resume.75d5019be1b3a84036aa.pdf",
     "static/media/messaging_app_logo.jpg": "/static/media/messaging_app_logo.0b72613535148217f427.jpg",
@@ -13,10 +16,10 @@
     "static/media/CodePath_Logo.jpg": "/static/media/CodePath_Logo.147432dcd62df1787f43.jpg",
     "index.html": "/index.html",
     "main.a249be1c.css.map": "/static/css/main.a249be1c.css.map",
-    "main.99cb3829.js.map": "/static/js/main.99cb3829.js.map"
+    "main.6101fa02.js.map": "/static/js/main.6101fa02.js.map"
   },
   "entrypoints": [
     "static/css/main.a249be1c.css",
-    "static/js/main.99cb3829.js"
+    "static/js/main.6101fa02.js"
   ]
 }
