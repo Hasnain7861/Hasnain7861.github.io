@@ -1,76 +1,69 @@
-.container.awards__container {
-    width: 40%;
-    height: 32vh;
+.awards__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+/* ===== Card ===== */
+
+.award__card {
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.award__card:hover {
+  border-color: rgba(56, 189, 248, 0.25);
+  box-shadow: var(--glow-primary);
+}
+
+/* ===== Avatar ===== */
 
 .award__avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    margin: 0 auto 1rem;
-    border: 0.4rem solid var(--color-primary-variant);
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+  padding: 2px;
+  background: var(--gradient);
+  flex-shrink: 0;
 }
 
-.testimonial {
-    background: var(--color-bg-variant);
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-    user-select: none;
+.award__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* ===== Text ===== */
+
+.award__name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
 }
 
 .award__review {
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
+  color: var(--color-text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.7;
 }
 
-@media screen and (max-width: 1024px) {
-    #testimonials {
-      margin-top: 4rem;
-      position: relative;
-      padding-top: 4rem;
-    }
-  
-    .container.awards__container {
-      width: 70%;
-      height: auto;
-      margin-bottom: 2rem;
-    }
-  
-    .testimonial {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-    }
-  
-    .award__review {
-      width: 90%;
-      margin: 0.8rem auto;
-    }
+/* ===== Responsive ===== */
+
+@media screen and (max-width: 768px) {
+  .awards__grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
   }
-  
-  @media screen and (max-width: 600px) {
-    #testimonials {
-      margin-top: 75rem;
-      position: relative;
-      padding-top: 4rem;
-    }
-  
-    .container.awards__container {
-      width: 90%;
-      height: auto;
-      margin-bottom: 2rem;
-    }
-  
-    .testimonial {
-      margin-bottom: 2rem;
-      padding: 1.5rem;
-    }
-  
-    .award__review {
-      width: 90%;
-      margin: 0.8rem auto;
-    }
-  }
+}

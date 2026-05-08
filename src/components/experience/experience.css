@@ -1,87 +1,154 @@
 .experience__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.experience__container > div {
-    background: var(--color-bg-variant);
-    padding: 1.4rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    width: 70%;
-    margin: 0 auto;
-}
+/* ===== Timeline ===== */
 
-.experience__SJSU > h3 {
-    font-size: 20px;
-}
-
-.experience__container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
-
-.experience__container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
-}
-
-.experience__content {
-    row-gap: 2rem;
-}
-
-.experience__details {
+.experience__timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
+  padding-left: 2rem;
 }
 
-h6 {
-    color: rgb(187, 199, 206);
-    font-size: 17px;
-    margin-bottom: 1.3rem;
-    line-height: 1px; ;
+.experience__timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #2563eb, #38bdf8, #22d3ee, transparent);
 }
 
-@media screen and (max-width: 1024px) {
-    .experience__container {
-      grid-template-columns: 1fr;
-      gap: 20px;
-      width: 100%;
-    }
+/* ===== Card ===== */
 
-    #experience {
-        margin-top: 20px; /* Add margin to lower the entire section */
-      }
+.experience__card {
+  position: relative;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.experience__card:hover {
+  border-color: rgba(56, 189, 248, 0.25);
+  box-shadow: var(--glow-primary);
+}
+
+.experience__timeline-dot {
+  position: absolute;
+  left: -2.55rem;
+  top: 2.25rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gradient);
+  border: 2px solid var(--color-bg);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.3), 0 0 12px rgba(56, 189, 248, 0.2);
+}
+
+/* ===== Header ===== */
+
+.experience__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+  gap: 1rem;
+}
+
+.experience__header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.experience__logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.experience__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.experience__header h3 {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.experience__role {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+.experience__dates {
+  font-size: 0.8rem;
+  background: var(--gradient-subtle);
+  color: var(--color-primary);
+  padding: 0.3rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+  font-weight: 500;
+  border: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+/* ===== Bullets ===== */
+
+.experience__bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.experience__bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  color: var(--color-text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.experience__check {
+  flex-shrink: 0;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===== Responsive ===== */
+
+@media screen and (max-width: 600px) {
+  .experience__header {
+    flex-direction: column;
+    gap: 0.75rem;
   }
-  
-  @media screen and (max-width: 600px) {
-    .experience__container {
-      grid-template-columns: 1fr;
-      gap: 20px;
-      width: 100%;
-      margin-top: 330px;
-    }
-    
-    .experience__SJSU {
-      text-align: center;
-    }
 
-    #experience {
-        margin-top: 330px; /* Add margin to lower the entire section */
-      }
-
-      .h6 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      .experience__content h6, .experience__content h7 {
-        margin-top: 10px;
-      } 
-
+  .experience__dates {
+    align-self: flex-start;
   }
+
+  .experience__card {
+    padding: 1.5rem;
+  }
+
+  .experience__logo {
+    width: 38px;
+    height: 38px;
+  }
+}
